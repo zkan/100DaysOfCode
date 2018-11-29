@@ -1,5 +1,6 @@
 from collections import (
     Counter,
+    ChainMap,
     defaultdict,
     namedtuple,
 )
@@ -39,3 +40,27 @@ with open(file_name) as f:
 User = namedtuple('User', 'name role')
 user = User(name='bob', role='coder')
 print(user, user.name, user.role)
+
+
+# ChainMap
+c = ChainMap()
+print(c)
+d = c.new_child()
+print(d)
+
+d['name'] = 'Kan'
+d['company'] = 'Pronto Tools'
+print(d)
+print(d.parents)
+print(d.maps)
+c['country'] = 'Thailand'
+print(c)
+print(d)
+
+# ChainMap - ChainMap structure is "layered"
+# https://stackoverflow.com/questions/23392976/what-is-the-purpose-of-collections-chainmap
+x = {'a': 1, 'b': 2}
+y = {'b': 10, 'c': 11}
+z = ChainMap(y, x)
+print(z)
+print(z['b'])
