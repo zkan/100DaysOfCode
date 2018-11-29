@@ -21,6 +21,9 @@ company['engineers'].append('Kan')
 company['engineers'].append('Mils')
 print(company)
 
+person = defaultdict(str)
+print(f"Person name is {person['name']}..")
+
 
 # Counter
 file_name = 'harry.txt'
