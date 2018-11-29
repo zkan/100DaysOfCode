@@ -1,6 +1,7 @@
 from collections import (
     Counter,
     defaultdict,
+    namedtuple,
 )
 
 
@@ -31,4 +32,7 @@ with open(file_name) as f:
     print(f'Top 5 common words: {c.most_common(5)}')
 
 
-
+# namedtuple
+User = namedtuple('User', 'name role')
+user = User(name='bob', role='coder')
+print(user, user.name, user.role)
