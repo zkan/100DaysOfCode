@@ -1,14 +1,3 @@
-import pytest
-
-from fizzbuzz import FizzBuzz
-
-
-@pytest.fixture
-def fizzbuzz():
-    fizzbuzz = FizzBuzz()
-    return fizzbuzz
-
-
 def test_number_is_divisible_by_3_should_get_fizz(fizzbuzz):
     expected = 'Fizz'
     assert fizzbuzz.say(3) == expected
