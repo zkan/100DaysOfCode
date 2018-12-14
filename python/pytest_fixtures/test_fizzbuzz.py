@@ -1,7 +1,14 @@
-def test_number_is_divisible_by_3_should_get_fizz(fizzbuzz):
-    expected = 'Fizz'
-    assert fizzbuzz.say(3) == expected
-    assert fizzbuzz.say(6) == expected
+import pytest
+
+
+@pytest.mark.parametrize('test_input, expected', [
+    (3, 'Fizz'),
+    (6, 'Fizz'),
+])
+def test_number_is_divisible_by_3_should_get_fizz(fizzbuzz,
+                                                  test_input,
+                                                  expected):
+    assert fizzbuzz.say(test_input) == expected
 
 
 def test_number_is_divisible_by_5_should_get_buzz(fizzbuzz):
