@@ -6,7 +6,7 @@ import os
 data = []
 Record = collections.namedtuple(
     'Record',
-    'actual_mean_temp,actual_min_temp',
+    'actual_mean_temp, actual_min_temp',
 )
 
 
