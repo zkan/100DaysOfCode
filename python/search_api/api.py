@@ -23,9 +23,7 @@ def find_talk_python_episodes(keywords: str) -> List[Episode]:
     response.raise_for_status()
     results = response.json().get('results')
 
-    episodes = []
-    for each in results:
-        if each.get('category') == 'Episode':
-            episodes.append(Episode(**each))
+    episodes = [Episode(**each) for each in results
+                if each.get('category') == 'Episode']
 
     return episodes
