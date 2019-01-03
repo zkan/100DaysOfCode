@@ -1,11 +1,16 @@
-import collections
+from dataclasses import dataclass
 from typing import List
 
 import requests
 
 
-Episode = collections.namedtuple('Episode', 'category, id, url, '
-                                            'title, description')
+@dataclass
+class Episode:
+    category: str
+    id: int
+    url: str
+    title: str
+    description: str
 
 
 def find_talk_python_episodes(keywords: str) -> List[Episode]:
