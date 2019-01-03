@@ -2,7 +2,14 @@ import api
 
 
 def main():
-    result = api.find_something()
+    print()
+    print('******* SEARCH TALK PYTHON *******')
+    keywords = input('What keywords to search for? ')
+
+    results = api.find_talk_python_episodes(keywords)
+    print(f'There are {len(results)} matching episodes:')
+    for index, each in enumerate(results, 1):
+        print(f'{index}. {each.title} ({each.url})')
 
 
 if __name__ == '__main__':
