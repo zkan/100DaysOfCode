@@ -15,9 +15,11 @@ def scrape(site):
     header_list = []
 
     soup = bs4.BeautifulSoup(site.text, 'html.parser')
-    html_header_list = soup.select('.projectHeader')
+    # html_header_list = soup.select('.projectHeader')
+    html_header_list = soup.find_all('h3')
     for each in html_header_list:
-        header_list.append(each.getText())
+        # header_list.append(each.getText())
+        header_list.append(each.string)
 
     for each in header_list:
         print(each)
