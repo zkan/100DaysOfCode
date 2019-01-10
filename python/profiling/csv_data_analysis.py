@@ -9,18 +9,19 @@ profiler.disable()
 
 Record = collections.namedtuple(
     'Record',
-    'airline, avail_seat_km_per_week, incidents_85_99,'
-    'fatal_accidents_85_99, fatalities_85_99, incidents_00_14,'
+    'airline, fatal_accidents_85_99, fatalities_85_99, '
     'fatal_accidents_00_14, fatalities_00_14'
 )
 
 
 def parse_row(row):
-    for k, v in row.items():
-        if k != 'airline':
-            row[k] = int(v)
-
-    record = Record(**row)
+    record = Record(
+        airline=row.get('airline'),
+        fatal_accidents_85_99=int(row.get('fatal_accidents_85_99')),
+        fatalities_85_99=int(row.get('fatalities_85_99')),
+        fatal_accidents_00_14=int(row.get('fatal_accidents_00_14')),
+        fatalities_00_14=int(row.get('fatalities_00_14')),
+    )
     return record
 
 
