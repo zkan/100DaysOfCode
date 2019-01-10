@@ -1,5 +1,10 @@
-### Before
+# Measuring Performance
 
+Experiment with `csv_data_analysis.py`.
+
+## Before Doing Anything
+
+```
 Ordered by: cumulative time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
@@ -13,9 +18,11 @@ Ordered by: cumulative time
       500    0.032    0.000    0.040    0.000 {built-in method io.open}
     28000    0.014    0.000    0.027    0.000 <string>:1(__new__)
      1500    0.005    0.000    0.014    0.000 pathlib.py:615(_parse_args)
+```
 
-### After Storing Only Necessary Data
+## After Storing Only Necessary Data
 
+```
  Ordered by: cumulative time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
@@ -29,3 +36,4 @@ Ordered by: cumulative time
       500    0.030    0.000    0.038    0.000 {built-in method io.open}
     28000    0.012    0.000    0.024    0.000 <string>:1(__new__)
    140002    0.023    0.000    0.023    0.000 {method 'get' of 'dict' objects}
+```
