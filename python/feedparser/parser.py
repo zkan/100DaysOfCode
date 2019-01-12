@@ -7,5 +7,6 @@ feed = feedparser.parse(FEED_FILE)
 
 print(feed.entries)
 print()
-for entry in feed.entries:
-    print(f'{entry.published} - {entry.title}: {entry.link}')
+if 'title' in feed.entries[0]:
+    for entry in feed.entries:
+        print(f'{entry.published} - {entry.title}: {entry.link}')
