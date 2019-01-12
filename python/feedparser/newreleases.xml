@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:steam="http://www.steampowered.com" xmlns="http://purl.org/rss/1.0/">
+	<channel rdf:about="http://www.steampowered.com">
+		<title>Steam RSS News Feed</title> 
+		<link>http://www.steampowered.com/</link> 
+		<description>All Steam news, all the time!</description> 
+		<language>en</language> 
+				<pubDate>Thu, 10 Jan 2019 10:10:00 -0800</pubDate>
+		<generator>http://www.steampowered.com/</generator> 
+		<items>
+			<rdf:Seq>
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47432/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47470/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47295/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47430/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47429/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47426/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47412/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47294/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47404/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47350/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47289/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47292/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47109/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47291/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47041/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47302/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47122/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/47048/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/46984/" />
+							<rdf:li rdf:resource="https://store.steampowered.com/news/46888/" />
+						</rdf:Seq>
+		</items>
+	</channel>
+					<item rdf:about="https://store.steampowered.com/news/47432/">
+			<title><![CDATA[Daily Deal - Sonic Franchise Advertising App, 75 - 85 % Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47432/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47432/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Thu, 10 Jan 2019 10:10:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-10T10:10:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 75 - 85 % on <a href='http://store.steampowered.com/app/378990/'>Sonic Titles</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Saturday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/378990/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/378990/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47470/">
+			<title><![CDATA[Now Available on Steam - Catherine Classic]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47470/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47470/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Thu, 10 Jan 2019 06:56:28 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-10T06:56:28-0800</dc:date>
+						<content:encoded><![CDATA[<a href='http://store.steampowered.com/app/893180/'>Catherine Classic</a> is Now Available on Steam!<br><br>Catherine: a tale of love, betrayal, and the terror of commitment. Experience the mature action-adventure-puzzle game unlike any other from the makers of the Persona series, now enhanced for PC in all its Classic glory. Is love over? Climb to the top or die trying.<br><a href="http://store.steampowered.com/app/893180/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/893180/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47295/">
+			<title><![CDATA[Daily Deal - The First Tree, 50% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47295/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47295/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Wed, 09 Jan 2019 10:05:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-09T10:05:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 50% on <a href='http://store.steampowered.com/app/555150/'>The First Tree</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Friday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/555150/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/555150/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47430/">
+			<title><![CDATA[Steam Client Update Released]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47430/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47430/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Tue, 08 Jan 2019 14:28:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-08T14:28:00-0800</dc:date>
+						<content:encoded><![CDATA[A new Steam client has been released and will be automatically downloaded.<br><br><b>General</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Improved Steam client responsiveness while downloading games<br><li>Fixed some places where recently played games list was truncated to 5 items<br><li>Fixed a rare crash if getting local network address failed on a local network connection<br><li>Fixed an issue where trying to buy or sell items in the overlay could result in an empty browser window when Family View was active<br></ul><br><b>Windows</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Improved automatic discovery of HTTP proxies on some types of restrictive networks, which will allow users on those networks to download game content and other HTTP content while using the Steam client<br></ul><br><b>Steam Input</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Added support for PowerA wired/wireless GameCube Style controllers and PowerA Enhanced Wireless Controller<br><li>Added support for PDP Faceoff Wired Pro Controller<br></ul><br><b>Big Picture Mode</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>The Steam community header is now hidden when in Big Picture chat<br></ul><br><b>In-Home Streaming</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Re-enabled support for streaming from Mac OS X Mojave (requires 10.14.1 or newer)<br></ul><br><b>macOS</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Fixed an issue where friends list and chat windows would continually freeze and duplicate when running with a secondary monitor attached with a different DPI setting than the primary monitor<br></ul>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47429/">
+			<title><![CDATA[Dota 2 Update - January 8th, 2019]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47429/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47429/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Tue, 08 Jan 2019 14:10:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-08T14:10:00-0800</dc:date>
+						<content:encoded><![CDATA[* Added missing skirt to the Mistress of the Long Night set. Players who have already unbundled the set and own a Belt of the Long Night will be granted a corresponding Skirt of the Long Night.]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47426/">
+			<title><![CDATA[Team Fortress 2 Update Released]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47426/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47426/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Tue, 08 Jan 2019 13:12:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-08T13:12:00-0800</dc:date>
+						<content:encoded><![CDATA[An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include:<br/><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Added NewbiDuo Cup Winter 2019 tournament medals<br><li>Added Streamer Cup Season 1 tournament medals<br><li>Updated the localization files<br><li>Updated cp_snakewater_final1<ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Fixed missing clip brush in RED kitchen<br><li>Fixed minor clipping issues</ul></ul>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47412/">
+			<title><![CDATA[Midweek Madness - ELEX, 60% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47412/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47412/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Tue, 08 Jan 2019 10:10:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-08T10:10:00-0800</dc:date>
+						<content:encoded><![CDATA[Save 60% on <a href='http://store.steampowered.com/app/411300/'>ELEX</a> during this week's Midweek Madness*!<br><br>*Offer ends Friday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/411300/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/411300/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47294/">
+			<title><![CDATA[Daily Deal - HELLION, 40% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47294/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47294/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Tue, 08 Jan 2019 10:05:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-08T10:05:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 40% on <a href='http://store.steampowered.com/app/588210/'>HELLION</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Thursday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/588210/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/588210/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47404/">
+			<title><![CDATA[Dota 2 Update - January 7th, 2019]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47404/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47404/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Mon, 07 Jan 2019 14:53:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-07T14:53:00-0800</dc:date>
+						<content:encoded><![CDATA[* Frosthaven has now ended.<br>* The Frostivus consumables bundle no longer contains Frosthaven consumables. Its price has been lowered to 750 to reflect this.]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47350/">
+			<title><![CDATA[Daily Deal - Universe Sandbox ², 33% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47350/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47350/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Mon, 07 Jan 2019 10:05:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-07T10:05:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 33% on <a href='http://store.steampowered.com/app/230290/'>Universe Sandbox ²</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Wednesday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/230290/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/230290/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47289/">
+			<title><![CDATA[Devolver Digital Done Quick]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47289/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47289/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Sun, 06 Jan 2019 09:00:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-06T09:00:00-0800</dc:date>
+						<content:encoded><![CDATA[<img src="https://steamcdn-a.akamaihd.net/steam/news/47289/DD_DQ_600px.jpg?t=1546450677">To celebrate <a href="https://gamesdonequick.com/">Games Done Quick 2019</a>, Devolver Digital are discounting a number of games that will be played over the next week. Check out <a href="https://store.steampowered.com/sale/devolver/">Devolver Digital Done Quick</a> for what's on sale! Offer ends January 13th at 10pm PST.]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47292/">
+			<title><![CDATA[Daily Deal - Planetary Annihilation: TITANS, 75% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47292/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47292/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Sat, 05 Jan 2019 10:05:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-05T10:05:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 75% on <a href='http://store.steampowered.com/app/386070/'>Planetary Annihilation: TITANS</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Monday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/386070/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/386070/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47109/">
+			<title><![CDATA[Daily Deal - Redout: Enhanced Edition, 80% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47109/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47109/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Fri, 04 Jan 2019 10:10:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-04T10:10:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 80% on <a href='http://store.steampowered.com/app/517710/'>Redout: Enhanced Edition</a> and its DLCs!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Sunday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/517710/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/517710/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47291/">
+			<title><![CDATA[Weekend Deal - Terraria, 50% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47291/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47291/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Thu, 03 Jan 2019 10:10:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-03T10:10:00-0800</dc:date>
+						<content:encoded><![CDATA[Save 50% on <a href='http://store.steampowered.com/app/105600/'>Terraria</a> as part of this week's Weekend Deal*!<br><br>*Offer ends Monday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/105600/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/105600/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47041/">
+			<title><![CDATA[Daily Deal - CHUCHEL, 50% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47041/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47041/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Thu, 03 Jan 2019 10:10:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-03T10:10:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 50% on <a href='http://store.steampowered.com/app/711660/'>CHUCHEL</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Saturday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/711660/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/711660/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47302/">
+			<title><![CDATA[Now Available on Steam Early Access - Braveland Heroes]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47302/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47302/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Thu, 03 Jan 2019 09:21:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2019-01-03T09:21:00-0800</dc:date>
+						<content:encoded><![CDATA[<a href='http://store.steampowered.com/app/931650/'>Braveland Heroes</a> is Now Available on Steam Early Access!<br><br>The famous Braveland series returns! Destroy your enemies in online duels and uncover the secret of the king's scepter in this new turn-based strategy game.<br><a href="http://store.steampowered.com/app/931650/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/931650/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47122/">
+			<title><![CDATA[Now Available on Steam Early Access - ATLAS, 17% off!]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47122/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47122/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Sat, 22 Dec 2018 13:25:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2018-12-22T13:25:00-0800</dc:date>
+						<content:encoded><![CDATA[<a href='http://store.steampowered.com/app/834910/'>ATLAS</a> is Now Available on Steam Early Access and is 17% off!*<br><br>ATLAS: The ultimate survival MMO of unprecedented scale with 40,000+ simultaneous players in the same world. Join an endless adventure of piracy &amp; sailing, exploration &amp; combat, roleplaying &amp; progression, settlement &amp; civilization-building, in one of the largest game worlds ever! Explore, Build, Conquer!<br><br>*Offer ends January 2nd at 10AM Pacific Time<br><br><a href="http://store.steampowered.com/app/834910/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/834910/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/47048/">
+			<title><![CDATA[Team Fortress 2 Update Released]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/47048/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/47048/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Thu, 20 Dec 2018 14:14:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2018-12-20T14:14:00-0800</dc:date>
+						<content:encoded><![CDATA[An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include:<br/><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Updated cp_gullywash_final1 to fix func_rotating entities not working in the skybox<br><li>Updated some of the cosmetic items from the Winter 2018 Cosmetics Collection to fix missing styles<br></ul>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/46984/">
+			<title><![CDATA[Team Fortress 2 Update Released]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/46984/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/46984/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Wed, 19 Dec 2018 16:05:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2018-12-19T16:05:00-0800</dc:date>
+						<content:encoded><![CDATA[An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include:<br/><br><br><br><b>Happy Smissmas 2018!</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.<ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Event runs through January 7th, 2019</ul><li>Added the Winter 2018 Cosmetic Case<ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Contains 18 new community-contributed items<br><li>The Festivizer can be found as a bonus drop when opening the case</ul><li>Mann Co. Store winter sale!<br></ul><b>General</b><br><ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Fixed func_rotating entity not working properly in maps like 2Fort and Gravelpit<br><li>Fixed Strange Filter: Brimstone not displaying the prefix in the weapon name<br><li>Fixed a Mann vs. Machine bug with giant robots reported by Justin G. (sigsegv) <br><li>Added LAN Downunder 2018 tournament medals<br><li>Added ETF2L 6v6 Season 31 and Highlander Season 17 tournament medals<br><li>Added Brazil Fortress Season 3 tournament medals<br><li>Added Russian Highlander Season 1 tournament medals<br><li>Added Sacred Scouts 6v6 tournament medals<br><li>Added AsiaFortress Cup Season 14 tournament medals<br><li>Added AsiaFortress LAN 2018 tournament medals<br><li>Updated the Starstorm Slumber unusual effect to fix a display problem<br><li>Updated the backpack image for Mr. Quackers<br><li>Updated the localization files<br><li>Updated pd_monster_bash<ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Fixed an out-of-bounds exploit in RED's courtyard</ul><li>Updated pl_millstone_event<ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Fixed a spot where players could trap players with teleport exit<br><li>Fixed Headless Horseman getting stuck in B area house staircase</ul><li>Updated cp_snakewater_final1<ul style="padding-bottom: 0px; margin-bottom: 0px;" ><li>Fixed "splash bug" issues throughout the map<br><li>Fixed a lot of visual issues<br><li>Improved clipping and made movement smoother<br><li>Made fence near yard closed to projectiles</ul></ul></ul>]]></content:encoded>
+					</item>
+					<item rdf:about="https://store.steampowered.com/news/46888/">
+			<title><![CDATA[Daily Deal - Sundered, 75% Off]]></title>
+			<link><![CDATA[https://store.steampowered.com/news/46888/]]></link>
+			<guid isPermaLink="true"><![CDATA[https://store.steampowered.com/news/46888/]]></guid>
+			<comments>https://steamcommunity.com//discussions/</comments>
+			<pubDate>Wed, 19 Dec 2018 10:05:00 -0800</pubDate>
+			<author>Valve</author>
+			<category>Valve news update</category>
+			<dc:subject>Valve news update</dc:subject>
+			<dc:creator>Valve</dc:creator>
+			<dc:date>2018-12-19T10:05:00-0800</dc:date>
+						<content:encoded><![CDATA[Today's Deal: Save 75% on <a href='http://store.steampowered.com/app/535480/'>Sundered</a>!*<br><br>Look for the deals each day on the front page of Steam.  Or follow us on <a href='http://twitter.com/steam_games'>twitter</a> or <a href='http://www.facebook.com/Steam'>Facebook</a> for instant notifications wherever you are!<br><br>*Offer ends Friday at 10AM Pacific Time<br><a href="http://store.steampowered.com/app/535480/"><img src="https://steamcdn-a.akamaihd.net/steam/apps/535480/capsule_467x181.jpg" style=" float: left; margin-right: 12px; height: 181px; width: 467px;"></a>]]></content:encoded>
+					</item>
+	</rdf:RDF>
