@@ -1,9 +1,14 @@
 from dataclasses import dataclass
 
+import os
+
 from github import Github
 
 
-gh = Github()
+GITHUB_ACCESS_TOKEN = os.environ.get('GITHUB_ACCESS_TOKEN')
+
+
+gh = Github(GITHUB_ACCESS_TOKEN)
 print(gh.rate_limiting)
 
 zkan = gh.get_user('zkan')
@@ -31,3 +36,11 @@ for each in zkan.get_repos():
 
 sorted_repos = sorted(repos, key=lambda x: x.stars, reverse=True)[:5]
 print(sorted_repos)
+
+projects = ['pronto-dashboard',]
+for each in projects:
+    repo = gh.get_organization('prontodev').get_repo(each)
+    pulls = repo.get_pulls(state='open', sort='created', base='develop')
+    for pr in pulls:
+        print(pr)
+
