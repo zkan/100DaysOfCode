@@ -2,8 +2,13 @@ from dataclasses import dataclass
 
 import os
 
+import requests_cache
 from github import Github
 
+
+requests_cache.install_cache(cache_name='github_cache',
+                             backend='sqlite',
+                             expire_after=180)
 
 GITHUB_ACCESS_TOKEN = os.environ.get('GITHUB_ACCESS_TOKEN')
 
