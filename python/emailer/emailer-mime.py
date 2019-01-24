@@ -7,10 +7,13 @@ from email.mime.text import MIMEText
 
 from_addr = 'kan@prontomarketing.com'
 to_addr = 'kan@prontomarketing.com'
+cc = ['kan+cc@prontomarketing.com',]
+bcc = ['kan+bcc@prontomarketing.com',]
 
 msg = MIMEMultipart()
 msg['From'] = from_addr
 msg['To'] = to_addr
+msg['Cc'] = ','.join(cc)
 msg['Subject'] = 'New Releases and Sales on Steam'
 
 body = '''
@@ -34,7 +37,7 @@ smtp_server.login('kan@prontomarketing.com',
 text = msg.as_string()
 print(text)
 
-smtp_server.sendmail(from_addr, to_addr, text)
+smtp_server.sendmail(from_addr, [to_addr] + cc + bcc, text)
 
 smtp_server.quit()
 
