@@ -25,7 +25,7 @@ msg.attach(MIMEText(body, 'plain'))
 
 smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
 
-# heartbeat with smtp server
+# heartbeat to smtp server
 smtp_server.ehlo()
 
 # start encryption session
