@@ -30,3 +30,4 @@ for index, row in enumerate(ws1['L']):
 
 print(profit_total)
 
+print(f'The highest cell is: {ws1.max_row}')
