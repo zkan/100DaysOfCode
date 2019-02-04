@@ -1,5 +1,22 @@
 <html>
+<head>
+  <title>Favourite Beer Tracker</title>
+</head>
 <body>
-  <p>Hello World</p>
+  <h1>Favourite Beers</h1>
+  <div>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Beer of Choice</th>
+      </tr>
+      {% for name, beer in fav_beer.items() %}
+        <tr>
+          <td>{{ name }}</td>
+          <td>{{ beer }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
 </body>
 </html>
