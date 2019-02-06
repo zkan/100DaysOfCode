@@ -1,15 +1,18 @@
 <html>
 <head>
   <title>Favourite Beer Tracker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 </head>
 <body>
-  <h1>Favourite Beers</h1>
-  <div>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Beer of Choice</th>
-      </tr>
+  <div class="ui text container">
+    <h1 class="ui header">Favourite Beers</h1>
+    <table class="ui celled table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Beer of Choice</th>
+        </tr>
+      </thead>
       {% for name, beer in fav_beer.items() %}
         <tr>
           <td>{{ name }}</td>
@@ -18,5 +21,6 @@
       {% endfor %}
     </table>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 </body>
 </html>
