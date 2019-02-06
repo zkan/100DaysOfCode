@@ -6,6 +6,21 @@
 <body>
   <div class="ui text container">
     <h1 class="ui header">Favourite Beers</h1>
+    <form action=".">
+      <div class="ui form">
+        <div class="two fields">
+          <div class="field">
+            <input type="text" placeholder="Your Name">
+          </div>
+          <div class="field">
+            <input type="text" placeholder="Beer of Choice">
+          </div>
+          <div class="field">
+            <div class="ui submit button">Submit</div>
+          </div>
+        </div>
+      </div>
+    </form>
     <table class="ui celled table">
       <thead>
         <tr>
@@ -21,6 +36,10 @@
       {% endfor %}
     </table>
   </div>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 </body>
 </html>
