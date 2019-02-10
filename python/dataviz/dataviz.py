@@ -17,7 +17,7 @@ def get_category(link):
     known = dict(codechallenge='challenge',
                  twitter='news',
                  special='special',
-                 geust='guest',)
+                 guest='guest',)
     default = 'article'
     category = re.sub(r'.*\.es/([a-z]+).*', r'\1', link)
     return known.get(category) or default
@@ -31,3 +31,7 @@ if __name__ == '__main__':
     pub_dates = [convert_to_datetime(entry.published) for entry in entries]
     posts_by_month = Counter(pub_dates)
     print(posts_by_month)
+
+    categories = [get_category(entry.link) for entry in entries]
+    cnt = Counter(categories)
+    print(cnt.most_common())
