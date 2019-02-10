@@ -34,4 +34,10 @@ if __name__ == '__main__':
 
     categories = [get_category(entry.link) for entry in entries]
     cnt = Counter(categories)
-    print(cnt.most_common())
+    categories = cnt.most_common()
+    print(categories)
+
+    tags = [tag.term.lower() for entry in entries for tag in entry.tags]
+    cnt = Counter(tags)
+    tags = cnt.most_common()
+    print(tags)
