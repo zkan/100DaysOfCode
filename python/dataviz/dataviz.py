@@ -1,4 +1,5 @@
 from datetime import datetime
+from collections import Counter
 import re
 
 import feedparser
@@ -26,4 +27,7 @@ if __name__ == '__main__':
     url = 'http://projects.bobbelderbos.com/pcc/dates/all.rss.xml'
     blog_feed = feedparser.parse(url)
     entries = blog_feed['entries']
-    print(entries)
+
+    pub_dates = [convert_to_datetime(entry.published) for entry in entries]
+    posts_by_month = Counter(pub_dates)
+    print(posts_by_month)
