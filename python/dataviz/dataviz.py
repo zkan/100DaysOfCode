@@ -23,6 +23,13 @@ def get_category(link):
     return known.get(category) or default
 
 
+def transpose_list_of_tuples(data):
+    if isinstance(data, dict):
+        data = data.items()
+    transposed = list(zip(*data))
+    return transposed
+
+
 if __name__ == '__main__':
     url = 'http://projects.bobbelderbos.com/pcc/dates/all.rss.xml'
     blog_feed = feedparser.parse(url)
@@ -41,3 +48,9 @@ if __name__ == '__main__':
     cnt = Counter(tags)
     tags = cnt.most_common()
     print(tags)
+
+    print(transpose_list_of_tuples(posts_by_month))
+
+    x, y = transpose_list_of_tuples(posts_by_month)
+    data = [go.Bar(x=x, y=y)]
+    plotly.offline.plot(data, filename='post-frequency.html')
