@@ -11,7 +11,7 @@ class Member(ModelBase):
     id = sqlalchemy.Column(
         sqlalchemy.Integer,
         primary_key=True,
-        autoincrement=-True
+        autoincrement=True
     )
     created = sqlalchemy.Column(
         sqlalchemy.DateTime,
