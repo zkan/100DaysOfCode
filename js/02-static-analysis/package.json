@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "eslint src"
+  },
   "devDependencies": {
     "eslint": "^5.16.0"
   }
