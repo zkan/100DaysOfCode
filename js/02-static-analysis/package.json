@@ -1,7 +1,7 @@
 {
   "scripts": {
     "lint": "eslint src",
-    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx|graphql|vue)\""
+    "format": "prettier --write \"**/*.+(js|jsx|css|less|scss|graphql|vue)\""
   },
   "devDependencies": {
     "eslint": "^5.16.0",
