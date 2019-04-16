@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "format": "prettier --write src/*"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "prettier": "^1.17.0"
   }
 }
