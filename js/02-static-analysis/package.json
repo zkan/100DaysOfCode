@@ -1,12 +1,14 @@
 {
   "scripts": {
     "lint": "eslint src",
+    "flow": "flow",
     "prettier": "prettier --write \"**/*.+(js|jsx|css|less|scss|graphql|vue)\"",
     "format": "yarn run prettier -- --write",
     "validate": "yarn run lint && yarn run prettier -- --list-different"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
+    "flow-bin": "^0.97.0",
     "prettier": "^1.17.0"
   }
 }
