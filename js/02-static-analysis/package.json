@@ -4,7 +4,7 @@
     "flow": "flow",
     "prettier": "prettier --write \"**/*.+(js|jsx|css|less|scss|graphql|vue)\"",
     "format": "yarn run prettier -- --write",
-    "validate": "yarn run lint && yarn run prettier -- --list-different"
+    "validate": "yarn run lint && yarn run prettier -- --list-different && yarn run flow"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
