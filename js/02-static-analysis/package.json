@@ -7,6 +7,7 @@
     "validate": "yarn run lint && yarn run prettier -- --list-different && yarn run flow"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "flow-bin": "^0.97.0",
     "prettier": "^1.17.0"
