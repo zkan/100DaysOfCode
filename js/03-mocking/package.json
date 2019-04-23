@@ -1,0 +1,9 @@
+{
+  "name": "03-mocking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
