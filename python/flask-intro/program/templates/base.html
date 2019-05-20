@@ -1,11 +1,13 @@
 <html>
   <head>
     <title>This is our site</title>
+    <link href="{{ url_for('static', filename='mui-0.9.41/css/mui.min.css') }}" rel="stylesheet" type="text/css" />
+    <script src="{{ url_for('static', filename='mui-0.9.41/js/mui.min.js') }}"></script>
   </head>
   <body>
-    <div>Menu Bar -
-        <a href="/"><button>Home</button></a>
-        <a href="/100Days"><button>100 Days</button></a>
+    <div class="mui-panel">Menu Bar -
+        <a href="/"><button class="mui-btn mui-btn--raised">Home</button></a>
+        <a href="/100Days"><button class="mui-btn mui-btn--raised">100 Days</button></a>
     </div>
     <hr />
     {% block content %}{% endblock %}
