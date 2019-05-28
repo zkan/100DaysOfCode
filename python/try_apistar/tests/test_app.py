@@ -21,3 +21,17 @@ def test_list_iris():
         'class_': 'Iris-setosa',
     }
     assert json_resp[0] == expected
+
+
+def test_get_iris():
+    response = client.get('/88/')
+    assert response.status_code == 200
+
+    expected = {
+        'sepal_length': 6.3,
+        'sepal_width': 2.3,
+        'petal_length': 4.4,
+        'petal_width': 1.3,
+        'class_': 'Iris-versicolor',
+    }
+    assert response.json() == expected

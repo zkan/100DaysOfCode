@@ -27,13 +27,19 @@ class Iris(types.Type):
     class_ = validators.String()
 
 
-def list_iris():
+def list_iris() -> JSONResponse:
     iris_data = [Iris(each) for each in original_iris_data]
     return JSONResponse(iris_data)
 
 
+def get_iris(iris_id: int) -> JSONResponse:
+    iris = original_iris_data[iris_id - 1]
+    return JSONResponse(Iris(iris), status_code=200)
+
+
 routes = [
     Route('/', method='GET', handler=list_iris),
+    Route('/{iris_id}/', method='GET', handler=get_iris),
 ]
 
 app = App(routes=routes)
