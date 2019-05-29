@@ -1,6 +1,6 @@
 from apistar import test
 
-from app import app
+from app import app, original_iris_data
 
 
 client = test.TestClient(app)
@@ -33,5 +33,29 @@ def test_get_iris():
         'petal_length': 4.4,
         'petal_width': 1.3,
         'class_': 'Iris-versicolor',
+    }
+    assert response.json() == expected
+
+
+def test_create_iris():
+    data = {
+        'sepal_length': 9,
+        'sepal_width': 9,
+        'petal_length': 9,
+        'petal_width': 9,
+        'class_': 'Iris-virginica',
+    }
+
+    response = client.post('/', data=data)
+    assert response.status_code == 201
+    assert len(original_iris_data) == 151
+
+    response = client.get('/151/')
+    expected = {
+        'sepal_length': 9,
+        'sepal_width': 9,
+        'petal_length': 9,
+        'petal_width': 9,
+        'class_': 'Iris-virginica',
     }
     assert response.json() == expected

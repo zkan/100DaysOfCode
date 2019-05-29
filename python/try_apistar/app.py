@@ -37,8 +37,14 @@ def get_iris(iris_id: int) -> JSONResponse:
     return JSONResponse(Iris(iris), status_code=200)
 
 
+def create_iris(iris: Iris) -> JSONResponse:
+    original_iris_data.append(iris)
+    return JSONResponse(Iris(iris), status_code=201)
+
+
 routes = [
     Route('/', method='GET', handler=list_iris),
+    Route('/', method='POST', handler=create_iris),
     Route('/{iris_id}/', method='GET', handler=get_iris),
 ]
 
