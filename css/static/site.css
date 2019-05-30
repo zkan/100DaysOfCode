@@ -1,9 +1,17 @@
 body {
   background-color: #ccc;
-  color: #222;
+  color: #fff;
 }
 
 .content {
   padding: 20px;
   line-height: 1.25em;
+}
+
+.custom-nav li {
+  display: inline-block; /* allow us to can set margin and padding */
+}
+
+.custom-nav {
+  background-color: #222222
 }
