@@ -1,0 +1,9 @@
+body {
+  background-color: #ccc;
+  color: #222;
+}
+
+.content {
+  padding: 20px;
+  line-height: 1.25em;
+}
