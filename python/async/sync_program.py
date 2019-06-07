@@ -5,8 +5,8 @@ import colorama
 
 
 def process():
-    time.sleep(random.random() + .5)
     print(colorama.Fore.CYAN + 'Processing..')
+    time.sleep(random.random() + .5)
 
 
 for _ in range(10):
