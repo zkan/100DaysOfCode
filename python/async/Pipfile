@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 colorama = "*"
+requests = "*"
+"bs4" = "*"
+aiohttp = "*"
+cchardet = "*"
 
 [dev-packages]
 
