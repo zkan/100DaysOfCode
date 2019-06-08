@@ -29,16 +29,19 @@ def get_title(html: str, episode_number: int) -> str:
 
 def main():
     loop = asyncio.get_event_loop()
-    task1 = loop.create_task(get_title_range())
-    final_task = asyncio.gather(task1)
+    task = loop.create_task(get_title_range())
+    final_task = asyncio.gather(task)
     loop.run_until_complete(final_task)
     print("Done.")
 
 
 async def get_title_range():
-    # Please keep this range pretty small to not DDoS my site. ;)
+    tasks = []
     for n in range(150, 170):
-        html = await get_html(n)
+        tasks.append((n, asyncio.create_task(get_html(n))))
+
+    for n, t in tasks:
+        html = await t
         title = get_title(html, n)
         print(Fore.WHITE + f"Title found: {title}", flush=True)
 
