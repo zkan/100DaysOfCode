@@ -1,5 +1,5 @@
 body {
-  background-color: #ccc;
+  background-color: #111;
   color: #fff;
 }
 
@@ -13,5 +13,10 @@ body {
 }
 
 .custom-nav {
-  background-color: #222222
+  background-color: #222222;
+}
+
+#main {
+  width: 800px;
+  margin: 0 auto;
 }
